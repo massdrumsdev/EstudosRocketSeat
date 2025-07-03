@@ -161,4 +161,78 @@ a:hover {
   background-color: #222222; /* tom cinza escuro ao passar o mouse */
   text-align: center;
 }
+.footer-coluna {
+  flex: 1 1 250px;
+}
 
+.footer-coluna h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.footer-coluna p {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.icones-sociais {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.icones-sociais img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1); /* deixa o ícone branco */
+  transition: transform 0.3s;
+}
+
+.icones-sociais img:hover {
+  transform: scale(1.2);
+}
+.titulo-central {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.contato-item {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 0.5rem;
+}
+.label-email {
+  display: block;
+  margin: 0.5rem 0;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.input-email {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-footer:hover {
+  background-color: #222;
+}
